@@ -11,9 +11,10 @@ const Navbar = () => {
     const handleNav = () => {
         setNav(!nav);
     }
+    const [darkMode, setDarkMode] = useState(false);
     return (
-        <div className='fixed w-full h-20 shadow-xl z-[100]'>
-            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+        <div className='fixed w-full h-20 shadow-xl z-[100] '>
+            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>               
                 <Image src="/../public/assets/logo.png" alt="logo" height='100' width='250' />
                 <div>
                     <ul className='hidden md:flex'>
@@ -31,7 +32,7 @@ const Navbar = () => {
                         </Link>
                         <Link href='/'>
                             <li className='ml-10 text-sm uppercase hover:border-b'>Contacts</li>
-                        </Link>                        
+                        </Link> 
                     </ul>  
                     <div onClick={handleNav} className= 'md:hidden'>
                         <AiOutlineMenu size={25} />
