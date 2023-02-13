@@ -44,7 +44,7 @@ const Navbar = () => {
                     'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src='/../public/assets/logo.png' alt='logo' width='230' height='100' />
+                            <Image src={logo} alt='logo' width='230' height='100' />
                             <div onClick= {handleNav} className='rounded-full shadow-lg shadow-grat-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>               
