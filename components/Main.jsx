@@ -4,6 +4,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
+import profile from '../public/assets/profile.png'
 
 const Main = () => {
     return (
@@ -45,7 +46,7 @@ const Main = () => {
                         </Link>
                     </div>
                     <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 mt-2 overflow-hidden'>
-                        <Image src="/../public/assets/profile.png" alt="profile" layout='fill'  objectFir='cover'/>
+                        <Image src={profile} alt="profile" layout='fill'  objectFir='cover'/>
                     </div>
                     
 
