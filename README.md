@@ -24,5 +24,31 @@ You can view the live version of the website at: [https://your-website.com](http
 
 To run the project locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository
+2. Yarn Install
+3. Yarn Dev
+4. Go to Local host 3000 to run the application 
+
+## Contact
+
+- LinkedIn: [https://linkedin.com/in/your-username](https://www.linkedin.com/in/vibolreach)
+- GitHub: [https://github.com/your-username](https://github.com/ManvibolreachOuk?tab=repositories)
+- Email: your-email@example.com
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Next.js
+- React
+- Firebase
+- AWS
+- SendGrid
+- Tailwind
+- JavaScript
+- CSS
+
+
 
