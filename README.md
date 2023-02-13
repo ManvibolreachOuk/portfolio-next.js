@@ -14,8 +14,8 @@ A modern, dynamic, and responsive portfolio website built with the latest web te
 
 ## Deployment
 
-You can view the live version of the Vecel website at: [https://vecel-ManvibolreachOuk.com](https://portfolio-next-js-manvibolreachouk.vercel.app/)
-You can view the live version of the AWS website at: [https://aws-ManvibolreachOuk.com](https://main.d3bey2g6otv049.amplifyapp.com/)
+-You can view the live version of the Vecel website at: [https://vecel-ManvibolreachOuk.com](https://portfolio-next-js-manvibolreachouk.vercel.app/)
+-You can view the live version of the AWS website at: [https://aws-ManvibolreachOuk.com](https://main.d3bey2g6otv049.amplifyapp.com/)
 
 ## Getting Started
 
