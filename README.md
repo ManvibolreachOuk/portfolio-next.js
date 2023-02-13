@@ -2,10 +2,6 @@
 
 A modern, dynamic, and responsive portfolio website built with the latest web technologies including Next.js, React, Firebase, AWS, SendGrid, Tailwind, JavaScript, and CSS.
 
-## Preview
-
-![Preview of the portfolio project](preview.png)
-
 ## Features
 
 - Next.js for server-side rendering and optimized performance
@@ -18,7 +14,8 @@ A modern, dynamic, and responsive portfolio website built with the latest web te
 
 ## Deployment
 
-You can view the live version of the website at: [https://your-website.com](https://your-website.com)
+You can view the live version of the Vecel website at: [https://vecel-ManvibolreachOuk.com](https://portfolio-next-js-manvibolreachouk.vercel.app/)
+You can view the live version of the AWS website at: [https://aws-ManvibolreachOuk.com](https://main.d3bey2g6otv049.amplifyapp.com/)
 
 ## Getting Started
 
@@ -33,7 +30,7 @@ To run the project locally, follow these steps:
 
 - LinkedIn: [https://linkedin.com/in/your-username](https://www.linkedin.com/in/vibolreach)
 - GitHub: [https://github.com/your-username](https://github.com/ManvibolreachOuk?tab=repositories)
-- Email: your-email@example.com
+- Email: vibolreach.m.ouk@gmail.com
 
 ## License
 
