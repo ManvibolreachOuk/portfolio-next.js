@@ -3,7 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import logo from '../public/assets/logo.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100] '>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>               
-                <Image src="/../public/assets/logo.png" alt="logo" height='100' width='250' />
+                <Image src= {logo} alt="logo" height='100' width='250' />
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
@@ -71,7 +72,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className='pt-40'>
-                            <p className='uppercase tracking-wildest text-[#5651e5]'>Let's Connect</p>
+                            <p className='uppercase tracking-wildest text-[#5651e5]'>Let&#39;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                   <FaLinkedinIn />  

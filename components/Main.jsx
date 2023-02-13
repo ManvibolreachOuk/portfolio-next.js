@@ -4,15 +4,16 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
+import profile from '../public/assets/profile.png'
 
 const Main = () => {
     return (
         <div className='w-full h-screen text-center'>
             <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
                 <div>                                          
-                    <p className='uppercase text-sm tracking-widest text-gray-600 pt-40'>LET'S HAVE A GREAT IMPACT TOGETHER</p> 
+                    <p className='uppercase text-sm tracking-widest text-gray-600 pt-40'>LET&#39;S HAVE A GREAT IMPACT TOGETHER</p> 
                     <h2 className='py-4 text-gray-700'>
-                        Hey, I'm <span className='text-[#5651e5]'>Reach</span>
+                        Hey, I&#39;m <span className='text-[#5651e5]'>Reach</span>
                     </h2>
                     <h2 className='py-2 text-gray-700'>Web Developer And Designer</h2>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
@@ -45,7 +46,7 @@ const Main = () => {
                         </Link>
                     </div>
                     <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 mt-2 overflow-hidden'>
-                        <Image src="/../public/assets/profile.png" alt="profile" layout='fill'  objectFir='cover'/>
+                        <Image src={profile} alt="profile" layout='fill'  objectFir='cover'/>
                     </div>
                     
 
